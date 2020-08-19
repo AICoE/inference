@@ -22,6 +22,8 @@ cd /root
 
 pwd
 
+du -sh
+
 ls -lt
 
 start_fmt=$(date +%Y-%m-%d\ %r)
