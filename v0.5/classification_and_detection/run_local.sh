@@ -12,6 +12,8 @@ echo "common_opt"
 common_opt="--config ../mlperf.conf"
 dataset="--dataset-path $DATA_DIR"
 
+cd /root
+
 echo "output"
 OUTPUT_DIR=`pwd`/output/$name
 if [ ! -d $OUTPUT_DIR ]; then
