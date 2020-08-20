@@ -4,7 +4,7 @@ mkdir dataset
 
 cd dataset
 
-wget -q https://zenodo.org/record/3236545/files/resnet34-ssd1200.pytorch
+wget -q https://zenodo.org/record/3239977/files/ssd_mobilenet_v1.pytorch
 
 pwd
 
