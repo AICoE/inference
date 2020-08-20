@@ -43,7 +43,7 @@ RUN pip install Cython && pip install pycocotools
 
 
 RUN cd /root && \
-    git clone https://github.com/mlperf/inference && \
+    git clone https://github.com/AICoE/inference.git && \
     cd inference/loadgen && \
     pip install pybind11 && \
     CFLAGS="-std=c++14" python setup.py install && \
