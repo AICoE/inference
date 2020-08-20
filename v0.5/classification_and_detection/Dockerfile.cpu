@@ -41,4 +41,6 @@ RUN cd /tmp && \
     CFLAGS="-std=c++14" python setup.py install && \
     rm -rf mlperf
 
+ADD . /root
+
 ENTRYPOINT ["/bin/bash"]
