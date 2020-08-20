@@ -38,8 +38,10 @@ ck locate env --tags=object-detection,dataset,coco,2017,val,original
 pwd
 ls -lt
 
+echo "copy all"
 cp -r /tekton/home/CK-TOOLS/* /root/v0.5/classification_and_detection/dataset/
 
+echo "directories"
 ls -lt /tekton/home/CK-TOOLS/
 ls -lt /tekton/home/CK-TOOLS/dataset-coco-2017-val
 ls -lt /root/v0.5/classification_and_detection/
