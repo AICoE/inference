@@ -4,7 +4,7 @@ mkdir dataset
 
 cd dataset
 
-wget -q https://zenodo.org/record/3239977/files/ssd_mobilenet_v1.pytorch
+wget -q https://zenodo.org/record/3163026/files/ssd_mobilenet_v1_coco_2018_01_28.onnx
 
 pwd
 
