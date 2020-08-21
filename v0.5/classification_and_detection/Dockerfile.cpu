@@ -40,5 +40,7 @@ RUN cd /root && \
     pip install pybind11 && \
     CFLAGS="-std=c++14" python setup.py install && \
     cd /root
+    
+ADD . /root
 
 ENTRYPOINT ["/bin/bash"]
