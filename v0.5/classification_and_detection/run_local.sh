@@ -1,7 +1,5 @@
 #!/bin/bash
 
-echo "directories"
-
 export MODEL_DIR=/root/v0.5/classification_and_detection/dataset
 export DATA_DIR=/root/v0.5/classification_and_detection/dataset/dataset-coco-2017-val
 
@@ -9,7 +7,7 @@ echo "run_common"
 source ./run_common.sh
 
 echo "common_opt"
-common_opt="--config ../mlperf.conf"
+common_opt="--config /root/v0.5/mlperf.conf"
 dataset="--dataset-path $DATA_DIR"
 
 cd /root
@@ -21,12 +19,6 @@ if [ ! -d $OUTPUT_DIR ]; then
 fi
 
 cd /root
-
-pwd
-
-du -sh
-
-ls -lt
 
 start_fmt=$(date +%Y-%m-%d\ %r)
 echo "STARTING RUN AT $start_fmt"
