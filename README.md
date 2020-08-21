@@ -1,5 +1,7 @@
 MLPerf Inference is a benchmark suite for measuring how fast systems can run models in a variety of deployment scenarios. 
 
+For implementation of this inference benchmark in a Tekton pipeline on Openshift, please refer to: https://github.com/AICoE/mlperf-inference-tekton-pipeline.git
+
 Please see the [MLPerf Inference benchmark paper](https://arxiv.org/abs/1911.02549) for a detailed description of the benchmarks along with the motivation and guiding principles behind the benchmark suite. If you use any part of this benchmark (e.g., reference implementations, submissions, etc.), please cite the following:
 
 ```
